@@ -8,7 +8,7 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-##SERVER:
+SERVER:
 ```
 import socket
 s=socket.socket()
@@ -29,7 +29,7 @@ while True:
  print(ack)
  i+=s
 ```
-##CLIENT:
+CLIENT:
 ```
 import socket
 s=socket.socket()
@@ -40,9 +40,9 @@ while True:
 ```
 
 ## OUPUT:
-##SERVER:
+SERVER:
 ![image](https://github.com/23006823/2b_SLIDING_WINDOW_PROTOCOL/assets/138971409/991c087a-8efd-418f-8e78-0fd138ce6a76)
-##CLIENT:
+CLIENT:
 ![image](https://github.com/23006823/2b_SLIDING_WINDOW_PROTOCOL/assets/138971409/de0e2cdd-7db5-4be5-a947-783012f74618)
 
 
